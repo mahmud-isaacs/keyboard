@@ -1,49 +1,107 @@
 body {
-    background-color: bisque;
-}
-
-.keyboard {
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-    padding: 20px; 
-    background-color: #000000;
-    width: 800px; 
-    margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    gap: 10px; /
-}
-
-.key {
-    flex: 1;
-    color: bisque;
-    background-color: lightseagreen;
-    border: 1px solid #ccc;
-    text-align: center;
-    padding: 15px; 
-    cursor: pointer;
-    box-shadow: 2px 5px 8px lightseagreen;
-}
-
-.number {
-    color:olivedrab ;
-    background-color:tan ;
-    box-shadow: 2px 5px 8px tan;
-}
-
-.special {
-    flex: 1;
-    background-color: seagreen;
-    color: #fff;
-    box-shadow: 2px 5px 8px seagreen;
-}
-
-.space {
-    flex: 5; 
-    background-color: teal;
+    background: #c33764;
+  }
+  
+  .container {
+    margin: 100px 0 0 200px;
+  }
+  
+  .row {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    margin: 10px 0 0 0;
+  }
+  
+  button {
     color: black;
-    box-shadow: 2px 5px 8px teal;
-}
+    font-weight: 500;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: rgb(214, 214, 214);
+    box-shadow: 2px 5px 8px black ;
+  
+    font-size: 15px;
+    margin-left: 5px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+  }
+  button:active {
+    box-shadow: 1px 1px 2px #fd0c99, 1px 1px 2px #ff00dd;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: tomato; 
+  }
+  .print {
+    width: 85px;
+    border-radius: 10px;
+  }
+  
+  .back {
+    width: 148px;
+    border-radius: 10px;
+    background-color: lightblue;
+  }
+  
+  .tab {
+    width: 115px;
+    border-radius: 10px;
+    background-color: lightgreen;
+  }
+  
+  .slace {
+    width: 90px;
+    border: 10px;
+    background-color: lightgreen;
+  }
+  
+  .cap {
+    width: 96px;
+    border-radius: 10px;
+    background-color:lightgreen;
+  }
+  
+  .enter-btn {
+    width: 109px;
+    border-radius: 10px;
+    background-color: lightgreen;
+  }
+  
+  .shift {
+    width: 135px;
+    border-radius: 10px;
+    background-color: lightgreen;
+   
+  }
+  
+  .last {
+    width: 56px;
+    border-radius: 10px;
+  }
+  
+  .space {
+    width: 398px;
+    border-radius: 10px;
+    background-color: lightblue;
+  
+  }
+  
+  .arrow {
+    width: 56px;
+    border-radius: 10px;
+    background-color: lightcoral;
+    cursor: pointer;
+    color: darkgreen;
+  }
+
+  
